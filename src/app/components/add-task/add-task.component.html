@@ -1,0 +1,15 @@
+<form *ngIf="showAddTask" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="item">Item</label>
+        <input type="text" name="item" [(ngModel)]="item" id="item" placeholder="Add Item" />
+    </div>
+    <div class="form-control">
+        <label for="content">Content</label>
+        <input type="text" name="content" [(ngModel)]="content" id="content" placeholder="Add Content" />
+    </div>
+    <div class="form-control">
+        <label for="date">Date</label>
+        <input type="text" name="date" [(ngModel)]="date" id="date" placeholder="Add Date"/>
+    </div>
+    <input type="submit" value="Save Task" class="btn btn-block" />
+</form>
