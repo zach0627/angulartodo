@@ -1,4 +1,5 @@
 # angulartodo
+![image](https://github.com/zach0627/angulartodo/blob/master/demo.png) 
 
 ## 必裝環境
 ###### ng cli:
